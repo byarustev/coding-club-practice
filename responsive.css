@@ -1,0 +1,49 @@
+/* mobile 0-677 */
+/* Tablets minwidth - 678 */
+/* desktops minwidth - 1024px */
+.container {
+    display: flex;
+    gap: 5px;
+}
+
+.item {
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.item h3 {
+    align-self: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Targeting mobile phones */
+@media (max-width:677px) {
+    h1 {
+        color: blue;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Targeting Tablets */
+@media (min-width:678px) {
+    h1 {
+        color: purple;
+    }
+}
+
+/* Targeting desktops */
+@media (min-width:1024px) {
+    h1 {
+        color: yellow;
+    }
+}
