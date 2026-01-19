@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Page</title>
 </head>
+
 <body>
     <h1>Welcome to My Simple Page</h1>
-        <input type="text" placeholder="Enter something...">
-        <button>Submit</button>
+    <input type="text" placeholder="Enter something...">
+    <button>Submit</button>
     <script>
+
         // TWo slashes show a comment - they are completely ignored by the browser.
         // You can directly add an event listener to the button without declaring a variable
         // if it is to be used only once.
-        document.querySelector('button').addEventListener('click', function() {
+        document.querySelector('button').addEventListener('click', function () {
             // In the lesson we used innerHTML to get the value of an element.
             // However, for input elements, it's better to use the 'value' property.
             // Notice that with queryselector, we may not need to add an id to the element.
@@ -24,4 +27,5 @@
         });  
     </script>
 </body>
+
 </html>
