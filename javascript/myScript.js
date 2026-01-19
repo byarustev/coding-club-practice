@@ -115,6 +115,8 @@ boyNames.push("Moses")
 
 console.log(boyNames)
 
+// Manupulating Html ul to add more li items
+
 function addFirstBoyNameToHtmlList() {
     // Steps
     // 1. Target the ul element with in our html using the id
