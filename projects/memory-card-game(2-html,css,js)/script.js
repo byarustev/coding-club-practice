@@ -189,7 +189,6 @@ function handleCardClick(cardElement, cardIndex) {
 // ============================================
 
 // This function checks if the two selected cards match
-// TODO: Implement the matching logic
 // Hint: This function should:
 // 1. Lock the board to prevent more clicks
 // 2. Get the symbols from both selected cards
