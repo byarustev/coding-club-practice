@@ -1,0 +1,77 @@
+6-WEEK WEB DEVELOPMENT BOOTCAMP – CURRICULUM SUMMARY
+
+
+HTML (Web Structure + Markup)
+-----------------------------
+• How the web works – Browser, server, HTTP/HTTPS, URLs
+• Project folder structure – Folders, index.html, naming (lowercase, hyphens)
+• What HTML is – Markup language, tags, structure vs content
+• Document structure – DOCTYPE, html, head, body, meta tags
+• Essential tags – Headings (h1–h6), paragraphs, links, images (with alt), lists (ul, ol, li), div, span
+• Attributes – id, class, src, href, alt
+• Semantic HTML – header, nav, main, section, article, footer
+• Comments – HTML comments
+• Best practices – Closing tags, lowercase, indentation, validation
+
+
+CSS (Styling and Layout)
+------------------------
+• What CSS is – Separation of structure and presentation
+• Including CSS – Inline, internal (style tag), external stylesheet (recommended)
+• Syntax – Selectors, properties, values, rules
+• Basic styling – Colors (names, HEX, RGB/RGBA, HSL), backgrounds, fonts (size, weight, family), text alignment and decoration
+• Box model – Content, padding, border, margin; width/height; box-sizing
+• Selectors – Classes vs IDs, specificity (inline > ID > class > element)
+• Display – block, inline, inline-block
+• Common patterns – Centering with margin, link styling, reset styles
+• Organization – Grouping, comments, naming, external files
+
+
+Responsive Design + Flexbox
+---------------------------
+• Responsive design – One layout for mobile, tablet, desktop; flexible layouts and media queries
+• CSS units – px, %, em, rem, vw, vh and when to use them
+• Viewport – Viewport meta tag for mobile
+• Media queries – @media, breakpoints (e.g. 768px, 1024px), mobile-first vs desktop-first
+• Flexbox – display: flex; main/cross axis; container vs items
+• Container properties – flex-direction, justify-content, align-items, gap, flex-wrap
+• Item properties – flex-grow, flex-shrink, flex-basis, flex shorthand, align-self
+• Layouts – Centering, nav bars, equal columns, cards, hero sections, responsive nav
+
+
+JavaScript (Basics)
+-------------------
+• Role of JavaScript – Interactivity and behavior in the browser
+• Where to write JS – Internal script tag vs external .js file (recommended)
+• Variables – let, const, naming rules
+• Data types – String, number, boolean, undefined, null; template literals; typeof
+• Operators – Arithmetic, assignment, comparison (===, !==), logical (&&, ||, !)
+• Conditionals – if, else, else if, ternary
+• Functions – Declarations, parameters, return, expressions, arrow functions
+• Debugging – console.log and other console methods
+• DOM intro – getElementById, querySelector, querySelectorAll; textContent, innerHTML
+
+
+DOM Manipulation + Events
+--------------------------
+• The DOM – Document as a tree; reading and changing the page
+• Selecting elements – getElementById, querySelector, querySelectorAll, getElementsByClassName, getElementsByTagName
+• Updating content – textContent vs innerHTML, input .value
+• Classes – classList.add, remove, toggle, contains
+• Events – click, input, submit, change, focus, blur, mouseover, mouseout, keydown, load
+• Event listeners – addEventListener, removeEventListener, named vs anonymous handlers
+• Form handling – event.preventDefault() on submit
+• Creating elements – createElement, appendChild, insertBefore, removeChild, remove()
+• Best practices – DOMContentLoaded, specific selectors, null checks, textContent for safe text
+
+
+Arrays, Loops, Storage + Projects
+---------------------------------
+• Arrays – Literals, indexing, length, push, unshift, pop, shift, splice, indexOf, includes
+• Loops – for, for...of, forEach, while; iterating arrays and building lists in the DOM
+• Local storage – setItem, getItem, removeItem, clear; JSON.stringify/parse for objects
+• Project structure – Folders (css, js, images), separate files, naming, comments
+• Debugging – Console, DevTools (Console, Elements, Network, Sources), common errors and fixes
+• How to Google – Effective search, MDN, Stack Overflow, reading documentation
+• Continuing learning – Practice, courses, practice sites, communities, Git, frameworks, portfolio
+

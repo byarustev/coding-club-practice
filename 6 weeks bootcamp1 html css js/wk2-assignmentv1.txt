@@ -1,0 +1,277 @@
+Week 2 Assignment: Style Your “About Me” Website
+Assignment Overview
+In this assignment, you will take your Week 1 “About Me” website and improve its appearance using CSS. You will create an external stylesheet and use CSS selectors (including classes) to style text, layout, images, and sections of your webpage.
+Learning Objectives
+By completing this assignment, you will learn how to:
+Link an external CSS file to HTML
+
+
+Style text, colors, and backgrounds
+
+
+Use the CSS box model (margin, padding, borders)
+
+
+Center content using max-width
+
+
+Create hover effects
+
+
+Use CSS classes for reusable styling
+
+
+Organize CSS using comments
+
+
+Requirements Checklist
+Your styled website must include:
+External CSS file named styles.css
+
+
+Styling for the page body (font and background color)
+
+
+Unique styling for all headings
+
+
+Styled paragraph text
+
+
+Customized lists (changed bullet style or removed bullets)
+
+
+At least one section with borders and padding
+
+
+Centered layout using max-width
+
+
+Hover effects on links
+
+
+Image size controlled using CSS (not HTML)
+
+
+Use of at least two CSS classes
+
+
+Well-organized CSS with comments
+
+
+Instructions
+Step 1: Set Up Your CSS File
+Open your Week 1 project folder named about-me-website.
+
+
+Create a new file called styles.css in the same folder as index.html.
+
+
+Open styles.css in your text editor.
+
+
+Step 2: Link CSS to HTML
+Open your index.html file.
+
+
+Inside the <head> section, add the following:
+<head>
+    <title>About Me - Your Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+Save both files.
+
+
+Step 3: Style the Page Body
+Add the following to styles.css:
+/* GLOBAL STYLES */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+This sets a readable font, improves readability, applies background and text color, and removes default browser spacing.
+Step 4: Style Headings
+/* HEADINGS */
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 1.8em;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #555;
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+
+Step 5: Using CSS Classes
+CSS classes allow you to reuse the same styles on multiple elements.
+Create Class Styles in CSS
+Add the following to styles.css:
+/* CLASS STYLES */
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    background-color: #fff3cd;
+    padding: 10px;
+    border-left: 4px solid #f1c40f;
+}
+
+.text-muted {
+    color: #777;
+    font-size: 0.95em;
+}
+
+Apply Classes in HTML
+Use the classes inside index.html:
+<section class="card">
+    <h2>About Me</h2>
+    <p class="highlight">
+        I enjoy learning new technologies and building websites.
+    </p>
+</section>
+
+<p class="text-muted">
+    This website was created as part of my web development class.
+</p>
+Rules:
+Use at least two CSS classes
+Classes may be reused
+
+
+
+Step 6: Style Paragraph Text
+/* TEXT STYLES */
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+Step 7: Customize Lists
+Choose one option.
+Option 1: Remove bullets
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 8px;
+    margin-bottom: 5px;
+    background-color: #ecf0f1;
+    border-left: 4px solid #3498db;
+}
+
+Option 2: Change bullet style
+ul {
+    list-style-type: square;
+}
+
+
+Step 8: Add Borders and Padding to Sections
+/* SECTIONS */
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+
+Step 9: Center Content with Max-Width
+/* LAYOUT */
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+Step 10: Style Images Using CSS
+/* IMAGES */
+
+img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+Remove any width or height attributes from HTML image tags.
+
+Step 11: Add Hover Effects to Links
+/* LINKS */
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+
+Step 12: Organize Your CSS
+Use comments to separate sections:
+/* SECTION NAME */
+
+Well-organized CSS is required.
+
+Step 13: Test Your Website
+Open index.html in your browser.
+
+
+Confirm that:
+
+
+Styles are applied
+
+
+Hover effects work
+
+
+Content is centered
+
+
+Images and lists are styled
+
+
+
+Deliverables
+Submit the following files:
+index.html
+
+
+styles.css
