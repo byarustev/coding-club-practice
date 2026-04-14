@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Main container for the entire game -->
+    <div class="container">
+        <!-- Header section with game title -->
+        <header>
+            <h1>Memory Card Game</h1>
+            <p class="subtitle">Match pairs of cards to win!</p>
+        </header>
+
+        <!-- Main game area -->
+        <main>
+            <!-- Game status section showing moves and messages -->
+            <section class="game-status">
+                <div class="status-item">
+                    <span class="label">Moves:</span>
+                    <span id="moves-count" class="value">0</span>
+                </div>
+                <div class="status-item">
+                    <span id="game-message" class="message">Click a card to start!</span>
+                </div>
+            </section>
+
+            <!-- Game board where cards will be dynamically rendered -->
+            <section class="game-board" id="game-board">
+                <!-- Cards will be inserted here by JavaScript -->
+            </section>
+
+            <!-- Control buttons -->
+            <section class="game-controls">
+                <button id="reset-btn" class="reset-button">Reset Game</button>
+            </section>
+        </main>
+
+        <!-- Footer with additional information -->
+        <footer>
+            <p>Good luck matching all the pairs!</p>
+        </footer>
+    </div>
+
+    <!-- Link to JavaScript file - must be at the end so DOM is ready -->
+    <script src="script.js"></script>
+</body>
+
+</html>

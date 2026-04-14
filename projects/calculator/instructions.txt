@@ -1,0 +1,9 @@
+Dom manipulation. 
+
+https://www.freecodecamp.org/news/dom-manipulation-in-javascript/
+https://www.theodinproject.com/lessons/foundations-dom-manipulation-and-events
+
+
+Exercise
+After reading through notes on Dom manipulation, Design a simple calculator. 
+with an Input as your screen and buttons. use flex box for positioning and using dom manipulation to display the user input.
